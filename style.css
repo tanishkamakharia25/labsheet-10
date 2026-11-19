@@ -1,0 +1,55 @@
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Arial,sans-serif;
+background:linear-gradient(120deg,#dbeafe,#fOf9ff);
+color:#333;
+}
+
+header{
+background:linear-gradient(to right,#2563eb,#7c3aed);
+color:white;
+text-align:center;
+padding:25px;
+}
+
+header h1{
+margin-bottom:10px;
+}
+
+main{
+display:flex;
+justify-content:center;
+gap:30px;
+padding:40px 20px;
+flex-wrap;
+}
+
+.form-section,.display-section{
+background:white;
+width:420;
+padding:25px;
+border-radius:12px;
+box-shadow:0 4px 12px rgba(0,0,0,0.15);
+}
+
+h2{
+color:#2563eb;
+margin-bottom:20px;
+}
+
+fieldset{
+border:2px solid #93c5fd;
+border-radius:8px;
+padding:15px;
+}
+
+legend{
+color:#2563eb;
+font-weight:bold;
+}
